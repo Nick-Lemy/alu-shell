@@ -1,2 +1,1 @@
-#!/bin/bash
-This Repo, has called alu-shell, is for the "Shell, basics" class of Software engineering program. 
+This Repo ,as named alu-shell, is for the "Shell, basics" class of Software engineering program. 
