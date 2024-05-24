@@ -7,6 +7,7 @@ def create_bash_script():
 	with open(file_name, 'w') as file:
 		file.write("#!/bin/bash\n")
 		file.write(second_line + "\n")
+	os.chmod(file_name, os.stat(file_name).st_mode | stat.S_IXUSR)
 	print(f"File '{file_name}' has been created in the current working directory.")
 
 # Run the function
