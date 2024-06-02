@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# Print "Best School x10 with while loop command"
+i=0
+while [ $i -lt 10 ]; do echo "Best School"; ((i++)); done
+	 
