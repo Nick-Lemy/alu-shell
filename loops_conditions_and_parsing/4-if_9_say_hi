@@ -1,8 +1,8 @@
 #!/usr/bin/env bash
 # if 9, say hi
 i=0
-while [ "$i" -lt 10 ]; do
-  if [ "$i" -eq 8 ]; then
+while [ "$i" -lt 11 ]; do
+  if [ "$i" -eq 9 ]; then
     echo "Hi"
   else echo "Best School"
   fi
