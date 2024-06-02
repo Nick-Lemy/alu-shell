@@ -1,8 +1,10 @@
 #!/usr/bin/env bash
 # if 9, say hi
-for i in {1..10}; do
+i=0
+while [ "$i" -lt 10 ]; do
   if [ "$i" -eq 9 ]; then
     echo "Hi"
   else echo "Best School"
   fi
+  ((i++))
 done
